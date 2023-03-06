@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, toRefs } from 'vue';
-import { QrStream } from '../../../dist/vue3-qr-reader.common'
+import { QrStream } from 'vue3-qr-reader'
 
 export default defineComponent({
   name: 'QrStreamExample',
